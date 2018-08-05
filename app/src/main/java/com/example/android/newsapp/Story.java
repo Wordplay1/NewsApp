@@ -6,6 +6,7 @@ public class Story {
 
     private static final String NO_AUTHOR_PROVIDED = null;
 
+    private static final int NO_IMAGE_PROVIDED = -1;
 
     private String title;
 
@@ -16,6 +17,8 @@ public class Story {
     private String date = NO_DATE_PROVIDED;
 
     private String author = NO_AUTHOR_PROVIDED;
+
+    private int imageResourceId;
 
     /** Second constructor
      *
@@ -100,5 +103,13 @@ public class Story {
      */
     public boolean hasAuthor(){
         return author != NO_AUTHOR_PROVIDED;
+    }
+
+    /** method to check image
+     *
+     * @return image not null
+     */
+    public boolean hasImage(){
+        return imageResourceId != NO_IMAGE_PROVIDED;
     }
 }
