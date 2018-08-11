@@ -13,8 +13,8 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
@@ -25,7 +25,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_launcher_background" />
+             />
 
         <TextView
             android:id="@+id/section_text_view"
@@ -39,7 +39,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            tools:text="Article Section" />
+            tools:text="Technology" />
 
         <TextView
             android:id="@+id/title_text_view"
@@ -51,7 +51,7 @@
             android:maxLines="2"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="35dp"
-            tools:text="luma lipsa dsadf sfafs adsasd adcsvcsd efasfsfsdf awddad adwdad wdawdw dadd" />
+            tools:text="Long placeholder that should only wrap two lines and if it goes any longer an elipsize" />
 
         <TextView
             android:id="@+id/author_text_view"
@@ -59,7 +59,7 @@
             android:layout_height="19dp"
             android:layout_marginLeft="128dp"
             android:layout_marginStart="128dp"
-            tools:text="Author TextView"
+            tools:text="By John Doe"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/title_text_view" />
 
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="128dp"
             android:layout_marginStart="128dp"
-            tools:text="Date TextView"
+            tools:text="Mar 6, 2018"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/author_text_view" />
 
